@@ -12,3 +12,5 @@ venv
 
 # JavaScript dependencies
 node_modules
+
+.idea
