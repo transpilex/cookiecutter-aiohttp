@@ -1,0 +1,19 @@
+[project]
+name = "{{ cookiecutter.slug }}"
+version = "{{ cookiecutter.version }}"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohappyeyeballs==2.6.1",
+    "aiohttp==3.13.3",
+    "aiohttp-jinja2==1.6",
+    "aiosignal==1.4.0",
+    "attrs==25.4.0",
+    "frozenlist==1.8.0",
+    "idna==3.11",
+    "jinja2==3.1.6",
+    "markupsafe==3.0.3",
+    "multidict==6.7.1",
+    "propcache==0.4.1",
+    "yarl==1.22.0",
+]
